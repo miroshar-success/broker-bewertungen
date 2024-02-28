@@ -1,0 +1,130 @@
+.scrollbar-track {
+  background: transparent !important;
+}
+
+.sidenav .scrollbar-track-x {
+  display: none !important;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.primary-scrollbar * {
+  scrollbar-color: rgba(233, 30, 99, 0.8) transparent !important;
+}
+
+/* Chrome, Edge, and Safari */
+
+.primary-scrollbar *::-webkit-scrollbar-track {
+  background: rgba(233, 30, 99, 0.2) !important;
+}
+
+.primary-scrollbar *::-webkit-scrollbar-thumb {
+  background-color: rgba(233, 30, 99, 0.8) !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.secondary-scrollbar * {
+  scrollbar-color: rgba(123, 128, 154, 0.8) transparent !important;
+}
+
+/* Chrome, Edge, and Safari */
+.secondary-scrollbar *::-webkit-scrollbar-track {
+  background: rgba(123, 128, 154, 0.2) !important;
+}
+
+.secondary-scrollbar *::-webkit-scrollbar-thumb {
+  background-color: rgba(123, 128, 154, 0.8) !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.info-scrollbar * {
+  scrollbar-color: rgba(26, 115, 232, 0.8) transparent !important;
+}
+
+/* Chrome, Edge, and Safari */
+.info-scrollbar *::-webkit-scrollbar-track {
+  background: rgba(26, 115, 232, 0.2) !important;
+}
+
+.info-scrollbar *::-webkit-scrollbar-thumb {
+  background-color: rgba(26, 115, 232, 0.8) !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.success-scrollbar * {
+  scrollbar-color: rgba(102, 187, 106, 0.8) transparent !important;
+}
+
+/* Chrome, Edge, and Safari */
+.success-scrollbar *::-webkit-scrollbar-track {
+  background: rgba(102, 187, 106, 0.2) !important;
+}
+
+.success-scrollbar *::-webkit-scrollbar-thumb {
+  background-color: rgba(102, 187, 106, 0.8) !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.warning-scrollbar * {
+  scrollbar-color: rgba(251, 140, 0, 0.8) transparent !important;
+}
+
+/* Chrome, Edge, and Safari */
+.warning-scrollbar *::-webkit-scrollbar-track {
+  background: rgba(251, 140, 0, 0.2) !important;
+}
+
+.warning-scrollbar *::-webkit-scrollbar-thumb {
+  background-color: rgba(251, 140, 0, 0.8) !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.error-scrollbar * {
+  scrollbar-color: rgba(244, 67, 53, 0.8) transparent !important;
+}
+
+/* Chrome, Edge, and Safari */
+
+.error-scrollbar *::-webkit-scrollbar-track {
+  background: rgba(244, 67, 53, 0.2) !important;
+}
+
+.error-scrollbar *::-webkit-scrollbar-thumb {
+  background-color: rgba(244, 67, 53, 0.8) !important;
+}

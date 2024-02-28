@@ -1,0 +1,30 @@
+export default (app) => {
+  app.post(
+    `/tenant/:tenantId/tracking-parameter`,
+    require('./trackingParameterCreate').default,
+  );
+  app.put(
+    `/tenant/:tenantId/tracking-parameter/:id`,
+    require('./trackingParameterUpdate').default,
+  );
+  app.post(
+    `/tenant/:tenantId/tracking-parameter/import`,
+    require('./trackingParameterImport').default,
+  );
+  app.delete(
+    `/tenant/:tenantId/tracking-parameter`,
+    require('./trackingParameterDestroy').default,
+  );
+  app.get(
+    `/tenant/:tenantId/tracking-parameter/autocomplete`,
+    require('./trackingParameterAutocomplete').default,
+  );
+  app.get(
+    `/tenant/:tenantId/tracking-parameter`,
+    require('./trackingParameterList').default,
+  );
+  app.get(
+    `/tenant/:tenantId/tracking-parameter/:id`,
+    require('./trackingParameterFind').default,
+  );
+};

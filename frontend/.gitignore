@@ -1,0 +1,7 @@
+node_modules/
+build/
+.eslintcache
+*.sh
+/public/sitemap.xml
+/public/sitemap.txt
+*.zip

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "typeRoots": ["node_modules/@types", "src/mui/types"],
+    "outDir": "./build",
+    "target": "es6",
+    "module": "esnext",
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es6", "dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "downlevelIteration": true,
+    "strict": true
+  },
+  "exclude": ["./dist", "./build"],
+  "include": ["./src"]
+}

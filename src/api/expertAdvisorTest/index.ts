@@ -1,0 +1,30 @@
+export default (app) => {
+  app.post(
+    `/tenant/:tenantId/expert-advisor-test`,
+    require('./expertAdvisorTestCreate').default,
+  );
+  app.put(
+    `/tenant/:tenantId/expert-advisor-test/:id`,
+    require('./expertAdvisorTestUpdate').default,
+  );
+  app.post(
+    `/tenant/:tenantId/expert-advisor-test/import`,
+    require('./expertAdvisorTestImport').default,
+  );
+  app.delete(
+    `/tenant/:tenantId/expert-advisor-test`,
+    require('./expertAdvisorTestDestroy').default,
+  );
+  app.get(
+    `/tenant/:tenantId/gexpert-advisor-test/autocomplete`,
+    require('./expertAdvisorTestAutocomplete').default,
+  );
+  app.get(
+    `/tenant/:tenantId/expert-advisor-test`,
+    require('./expertAdvisorTestList').default,
+  );
+  app.get(
+    `/tenant/:tenantId/expert-advisor-test/:id`,
+    require('./expertAdvisorTestFind').default,
+  );
+};
