@@ -65,6 +65,7 @@ npm start
 ### Run the frontend
 
 Open one more as same as the previous step.
+Please follow me
 
 ```bash
 cd frontend
