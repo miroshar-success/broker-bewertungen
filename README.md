@@ -71,3 +71,5 @@ Please follow me
 cd frontend
 npm start
 ```
+
+Built by Oskar Mast
